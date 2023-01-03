@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+<form>
+<fieldset>
+    <legend>Car info</legend>
+    <div>
+        <label for="brand">Brand</label>
+        <input type="text" name="brand">
+    </div>
+    <div>
+        <label for="model">Model</label>
+        <input type="text" name="model">
+    </div>
+    <div>
+        <label for="used">Used</label>
+        <input type="checkbox" name="used">
+    </div>
+    <div>
+        <label for="color">Red</label>
+        <input type="radio" name="color">
+        <label for="color">Black</label>
+        <input type="radio" name="color">
+        <label for="color">Blue</label>
+        <input type="radio" name="color">
+        <label for="color">White</label>
+        <input type="radio" name="color">
+        <label for="color">Grey</label>
+        <input type="radio" name="color">
+    </div>
+    <div>
+        <label for="used">Price</label>
+        <input 
+        type="range" 
+        name="used"
+        id="price"
+        min="10"
+        max="100"
+        step="10"
+        list="money">
+        <datalist id="money">
+            <option value="10"></option>
+            <option value="20"></option>
+            <option value="30"></option>
+            <option value="40"></option>
+            <option value="50"></option>
+            <option value="60"></option>
+            <option value="70"></option>
+            <option value="80"></option>
+            <option value="90"></option>
+            <option value="100"></option>
+
+        <datalist>
+    </div>
+</fieldset>
+</form>
+    
+
+</body>
+</html>
